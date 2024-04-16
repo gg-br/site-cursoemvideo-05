@@ -42,7 +42,7 @@ main > article > h2
 #bur:hover
 {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
@@ -62,7 +62,7 @@ menu > ul > li > a
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(39, 39, 39);
     color: white;
     text-align: center;
     border-top: 5px solid rgb(255, 255, 255);
@@ -95,3 +95,7 @@ article > p
     text-indent: 20px;
 }
 
+ul
+{
+    text-align: center;
+}
